@@ -1,8 +1,7 @@
 package cn.vliyue.test.algorithm.sort;
 
 public class InsertSort implements IArraySort {
-    @Override
-    public void sort(int[] array) {
+    public void sortOld(int[] array) {
         // i 已排序部分最后一位下标
         for (int i = 0; i < array.length - 1; i++) {
             int current = array[i + 1];
@@ -18,6 +17,22 @@ public class InsertSort implements IArraySort {
                     break;
                 }
             }
+        }
+    }
+
+
+    @Override
+    public void sort(int[] array) {
+        // i 已排序部分最后一位下标
+        for (int i = 0; i < array.length - 1; i++) {
+            int current = array[i + 1];
+            // 边比较边移动，j当前比较的下标
+            int j = i;
+            while (j >=0 && current < array[j]) {
+                array[j + 1] = array[j];
+                j--;
+            }
+            array[j + 1] = current;
         }
     }
 }

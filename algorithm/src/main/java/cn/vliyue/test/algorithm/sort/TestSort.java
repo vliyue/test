@@ -10,7 +10,9 @@ public class TestSort {
 //        new BubbleSort().sort(array);
 //        new SelectSort().sort(array);
 //        new InsertSort().sort(array);
-        new ShellSort().sort(array);
+//        new ShellSort().sort(array);
+        new MergeSort().sort(array);
+
 
         System.out.println(Arrays.toString(array));
 

@@ -5,14 +5,14 @@ import java.util.Arrays;
 public class TestSort {
 
     public static void main(String[] args) {
-        int[] array = new int[]{1, 9, 3, 4, 6, 5, 2, 8, 7};
+        int[] array = new int[]{5, 9, 3, 4, 6, 1, 2, 8, 7};
 
 //        new BubbleSort().sort(array);
 //        new SelectSort().sort(array);
 //        new InsertSort().sort(array);
 //        new ShellSort().sort(array);
-        new MergeSort().sort(array);
-
+//        new MergeSort().sort(array);
+        new QuickSort().sort(array);
 
         System.out.println(Arrays.toString(array));
 

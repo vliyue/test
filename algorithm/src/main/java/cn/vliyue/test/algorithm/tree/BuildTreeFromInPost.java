@@ -6,10 +6,10 @@ import java.util.Map;
 /**
  * https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
  */
-public class BuildTree {
+public class BuildTreeFromInPost {
 
     public static void main(String[] args) {
-        new BuildTree().buildTree(new int[]{1, 2, 3}, new int[]{3, 2, 1});
+        new BuildTreeFromInPost().buildTree(new int[]{1, 2, 3}, new int[]{3, 2, 1});
     }
 
     private Map<Integer, Integer> inMap = new HashMap<>();

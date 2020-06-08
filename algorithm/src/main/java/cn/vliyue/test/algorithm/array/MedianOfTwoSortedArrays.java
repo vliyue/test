@@ -1,7 +1,7 @@
 package cn.vliyue.test.algorithm.array;
 
 /**
- * @link https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
+ * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
  */
 class MedianOfTwoSortedArrays {
 

@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class LongestSubstring {
 
     public static void main(String[] args) {
-        System.out.println(lengthOfLongestSubstring("asdd"));
+        System.out.println(lengthOfLongestSubstring("assdd"));
     }
 
     public static int lengthOfLongestSubstring(String s) {
